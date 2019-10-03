@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ContactosCRUD.Contactos">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add" x:Name="AddContact" Clicked="AddContact_Clicked">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TyperArguments ="FileImageSource">
+                    <On Platform="Android" Value=""/>
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+</ContentPage>
